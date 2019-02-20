@@ -1,0 +1,75 @@
+body {
+  background-color: #b9b9b9;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.white-background {
+  background-color: white;
+  padding: 20px 15px 20px 15px;
+}
+
+.black-background {
+  background-color: black;
+  padding: 20px 15px 20px 15px;
+}
+
+.red-background {
+  background-color: #EF1D26;
+  padding: 20px 15px 20px 15px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 36px;
+  color: black;
+}
+
+p {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px
+}
+
+#topmenu {
+  background-color: black;
+  height: 100px;
+  border-radius: 0px;
+  border-bottom-color: white;
+  box-shadow: none;
+  margin-bottom: 0px;
+}
+
+.text {
+  font-family: Montserrat;
+  color: white;
+  font-size: 18px;
+}
+
+.menu.text:hover {
+  color: red;
+}
+
+@media (min-width: 980px) {
+  i.hidden{
+    display: none;
+  }
+}
+
+@media (max-width: 980px) {
+  div.top{
+    display: none;
+  }
+  i.top{
+    display: none;
+  }
+  i.hidden{
+    display: block;
+  }
+}
+
+div.text {
+  align: center;
+}
